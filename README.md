@@ -1,5 +1,7 @@
 # VirRes_model: pHMM model for functional annotation of bacterial genomes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18487266.svg)](https://doi.org/10.5281/zenodo.18487266)
+
 This repository contains a custom pHMM (profile Hidden Markov Model) library designed for the annotation of bacterial protein families associated with virulence, antimicrobial resistance, pathogenicity, and persistence mechanisms. The model comprises 480 carefully selected pHMMs, each representing a distinct bacterial protein family with functional relevance to bacterial survival and adaptation mechanisms under stress in pathogenic and environmental bacteria. The profiles were sourced from well-curated public databases via the InterPro resource, including NCBIFAM, Pfam, PANTHER, SUPERFAMILY, and TIGRFAMs, ensuring high-quality, domain-specific signatures for sensitive and specific genome mining. These models enable deep, homology-based functional annotation of bacterial genomes, supporting genome mining and comparative genomics studies focused on microbial adaptation traits.
 
 Rationale:
@@ -88,7 +90,7 @@ These pHMM libraries are compatible with:
 # License and Citation
 ### If you use this functional annotation model in your research, please cite:
 
-- Broetto, L. (2026). VirRes_model: pHMM model for functional annotation of bacterial genomes (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXX
+- Broetto, L. (2026). VirRes_model: pHMM model for functional annotation of bacterial genomes (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.18487266
 
 - HMMER Software: Eddy, S. R. (2011). Accelerated Profile HMM Searches. PLoS Computational Biology, 7(10), e1002195. https://doi.org/10.1371/journal.pcbi.1002195
 
@@ -102,8 +104,8 @@ or
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v1.0.0},
-  doi          = {10.5281/zenodo.XXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXX}
+  doi          = {10.5281/zenodo.18487266},
+  url          = {https://doi.org/10.5281/zenodo.18487266}
 }
 ```
 
