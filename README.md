@@ -5,7 +5,7 @@ This repository contains a custom pHMM (profile Hidden Markov Model) library des
 Rationale:
 The pHMMs represent experimentally validated or phylogenetically conserved protein domains and full-length families involved in key bacterial survival and adaptation mechanisms, including efflux systems, toxin-antitoxin modules, stress response regulators, secretion systems, DNA repair, transcription factors, and metabolic adaptations linked to persistence and resistance.
 
-Libraries were compiled by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
+Library was compiled by Leonardo Broetto (leonardo.broetto@arapiraca.ufal.br, Lbroetto@gmail.com)
 
 # Contact
 **Authors:** Leonardo Broetto
@@ -74,16 +74,16 @@ Comparability with established functional annotation pipelines
 
 ## Integration with Other Tools
 These pHMM libraries are compatible with:
-AntiSMASH (for biosynthetic gene cluster analysis)
-Prokka (for prokaryotic genome annotation)
-Roary (for pangenome analysis)
-Custom Python/R scripts via Biopython/Bioconductor
+- AntiSMASH (for biosynthetic gene cluster analysis)
+- Prokka (for prokaryotic genome annotation)
+- Roary (for pangenome analysis)
+- Custom Python/R scripts via Biopython/Bioconductor
 
 ## Applications
-Comparative genomics: Identify adaptive traits across bacterial isolates
-Pathogenomics: Characterize virulence potential in clinical isolates
-Metagenomics: Screen for resistance/virulence genes in complex communities
-Functional annotation: Enhance genome annotations with curated protein families
+- Comparative genomics: Identify adaptive traits across bacterial isolates
+- Pathogenomics: Characterize virulence potential in clinical isolates
+- Metagenomics: Screen for resistance/virulence genes in complex communities
+- Functional annotation: Enhance genome annotations with curated protein families
 
 # License and Citation
 ### If you use this functional annotation model in your research, please cite:
