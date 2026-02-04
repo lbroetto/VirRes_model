@@ -30,27 +30,30 @@ All pHMMs were retrieved from curated public databases through InterPro:
 
 | Directory/File | Description |
 |----------------|-------------|
-| `VirRes_pHMMs_model-480.hmm` | Model consisting of custom pHMMs library |
+| `VirRes_model.hmm.gz` | Model consisting of custom pHMMs library |
 | `LICENSE` | GNU GPLv3 license |
 | `README.md` | This documentation |
 
 ## Repository Contents
 
-`VirRes_pHMMs_model-480.hmm` – a comprehensive pHMM library containing 480 profile Hidden Markov Models for bacterial protein families involved in diverse functional categories such as: toxin–antitoxin systems, multidrug efflux transporters, transcriptional regulators (e.g., MarR, TetR, MerR), stress response proteins, secretion system components, cell wall/envelope modification enzymes, DNA repair and recombination machinery and metabolic regulators linked to persistence.
+`VirRes_pHMMs.hmm.gz` – a comprehensive pHMM library containing 480 profile Hidden Markov Models for bacterial protein families involved in diverse functional categories such as: toxin–antitoxin systems, multidrug efflux transporters, transcriptional regulators (e.g., MarR, TetR, MerR), stress response proteins, secretion system components, cell wall/envelope modification enzymes, DNA repair and recombination machinery and metabolic regulators linked to persistence.
 
 
 ## Usage Instructions
+To use the library, you need to decompress the `.gz` file first. Open your terminal or command prompt and run:
+$ gunzip VirRes_model.hmm.gz 
+
 1. Prerequisites
 Install HMMER 3.4 from http://hmmer.org/
 HMMER Documentation: http://hmmer.org/documentation.html
 
 2. Basic Search Command:
 - For proteins identification  
-$ hmmsearch --tblout output_file.txt -E 1e-03 --max VirRes_pHMMs_model-480.hmm your_proteome.faa
+$ hmmsearch --tblout output_file.txt -E 1e-03 --max VirRes_pHMMs.hmm your_proteome.faa
 
 ## For Reproducibility and Reuse:
 Search command: the search was executed with stringent parameters to ensure high-confidence hits:  
-$ hmmsearch --tblout <output_file.txt> -E 1e-03 --max <VirRes_pHMMs_model-480.hmm> <proteome.faa>
+$ hmmsearch --tblout <output_file.txt> -E 1e-03 --max <VirRes_pHMMs.hmm> <proteome.faa>
 
 ## Expected Output Format
 - The tabular output includes: Target sequence identifier, Query pHMM identifier, E-value (statistical significance), Bit score (alignment quality), Domain boundaries, Alignment coordinate
